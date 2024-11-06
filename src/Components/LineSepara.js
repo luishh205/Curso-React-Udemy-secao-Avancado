@@ -3,6 +3,7 @@ import React from 'react';
 const LineSepara = () => {
   return (
     <div>
+      <div>
       <hr
         style={{
           border: 'none',
@@ -10,7 +11,8 @@ const LineSepara = () => {
           backgroundColor: '#ccc',
           margin: '20px 0',
         }}
-      />
+        />
+        </div>
     </div>
   );
 };
